@@ -1,0 +1,2385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ShowChartButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ShowChartButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ShowChartButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 293</value>
+  </data>
+  <data name="ShowChartButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ShowChartButton.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="ShowChartButton.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton.Name" xml:space="preserve">
+    <value>ShowChartButton</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="labelShowChart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelShowChart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="labelShowChart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelShowChart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 293</value>
+  </data>
+  <data name="labelShowChart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 20</value>
+  </data>
+  <data name="labelShowChart.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="labelShowChart.Text" xml:space="preserve">
+    <value>График работы</value>
+  </data>
+  <data name="labelShowChart.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;labelShowChart.Name" xml:space="preserve">
+    <value>labelShowChart</value>
+  </data>
+  <data name="&gt;&gt;labelShowChart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelShowChart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelShowChart.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="SensorStatusButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="SensorStatusButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SensorStatusButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 157</value>
+  </data>
+  <data name="SensorStatusButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 32</value>
+  </data>
+  <data name="SensorStatusButton.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="SensorStatusButton.Text" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton.Name" xml:space="preserve">
+    <value>SensorStatusButton</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="labelSensorStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSensorStatus.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="labelSensorStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSensorStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 169</value>
+  </data>
+  <data name="labelSensorStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="labelSensorStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="labelSensorStatus.Text" xml:space="preserve">
+    <value>Управление датчиком</value>
+  </data>
+  <data name="&gt;&gt;labelSensorStatus.Name" xml:space="preserve">
+    <value>labelSensorStatus</value>
+  </data>
+  <data name="&gt;&gt;labelSensorStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSensorStatus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelSensorStatus.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="HeaterConditionLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="HeaterConditionLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="HeaterConditionLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="HeaterConditionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 252</value>
+  </data>
+  <data name="HeaterConditionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="HeaterConditionLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="HeaterConditionLabel.Text" xml:space="preserve">
+    <value>Выключен</value>
+  </data>
+  <data name="&gt;&gt;HeaterConditionLabel.Name" xml:space="preserve">
+    <value>HeaterConditionLabel</value>
+  </data>
+  <data name="&gt;&gt;HeaterConditionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HeaterConditionLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;HeaterConditionLabel.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="TemperaturesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TemperaturesLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="TemperaturesLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TemperaturesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 209</value>
+  </data>
+  <data name="TemperaturesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 19</value>
+  </data>
+  <data name="TemperaturesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="TemperaturesLabel.Text" xml:space="preserve">
+    <value>25.97</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel.Name" xml:space="preserve">
+    <value>TemperaturesLabel</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="Sensor1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Sensor1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="Sensor1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Sensor1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 113</value>
+  </data>
+  <data name="Sensor1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="Sensor1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="Sensor1.Text" xml:space="preserve">
+    <value>Датчик №1</value>
+  </data>
+  <data name="&gt;&gt;Sensor1.Name" xml:space="preserve">
+    <value>Sensor1</value>
+  </data>
+  <data name="&gt;&gt;Sensor1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sensor1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sensor1.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="labelHeaterCondition.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelHeaterCondition.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="labelHeaterCondition.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelHeaterCondition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 250</value>
+  </data>
+  <data name="labelHeaterCondition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 20</value>
+  </data>
+  <data name="labelHeaterCondition.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="labelHeaterCondition.Text" xml:space="preserve">
+    <value>Состояние нагревателя</value>
+  </data>
+  <data name="labelHeaterCondition.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;labelHeaterCondition.Name" xml:space="preserve">
+    <value>labelHeaterCondition</value>
+  </data>
+  <data name="&gt;&gt;labelHeaterCondition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelHeaterCondition.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelHeaterCondition.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="labelTemperatures.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTemperatures.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="labelTemperatures.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelTemperatures.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 209</value>
+  </data>
+  <data name="labelTemperatures.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 20</value>
+  </data>
+  <data name="labelTemperatures.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="labelTemperatures.Text" xml:space="preserve">
+    <value>Значение температуры</value>
+  </data>
+  <data name="labelTemperatures.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;labelTemperatures.Name" xml:space="preserve">
+    <value>labelTemperatures</value>
+  </data>
+  <data name="&gt;&gt;labelTemperatures.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTemperatures.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelTemperatures.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="InputSetPointTemperaturetextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>551, 29</value>
+  </data>
+  <data name="InputSetPointTemperaturetextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 22</value>
+  </data>
+  <data name="InputSetPointTemperaturetextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;InputSetPointTemperaturetextBox.Name" xml:space="preserve">
+    <value>InputSetPointTemperaturetextBox</value>
+  </data>
+  <data name="&gt;&gt;InputSetPointTemperaturetextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InputSetPointTemperaturetextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;InputSetPointTemperaturetextBox.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="labelInputSetPointTemperature.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelInputSetPointTemperature.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="labelInputSetPointTemperature.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelInputSetPointTemperature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 29</value>
+  </data>
+  <data name="labelInputSetPointTemperature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 20</value>
+  </data>
+  <data name="labelInputSetPointTemperature.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="labelInputSetPointTemperature.Text" xml:space="preserve">
+    <value>Введите значение температуры уставки от 100 до 200 градусов</value>
+  </data>
+  <data name="&gt;&gt;labelInputSetPointTemperature.Name" xml:space="preserve">
+    <value>labelInputSetPointTemperature</value>
+  </data>
+  <data name="&gt;&gt;labelInputSetPointTemperature.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelInputSetPointTemperature.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelInputSetPointTemperature.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="ShowChartButton2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="ShowChartButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ShowChartButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 293</value>
+  </data>
+  <data name="ShowChartButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <data name="ShowChartButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="ShowChartButton2.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton2.Name" xml:space="preserve">
+    <value>ShowChartButton2</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton2.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="SensorStatusButton2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="SensorStatusButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SensorStatusButton2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 157</value>
+  </data>
+  <data name="SensorStatusButton2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 32</value>
+  </data>
+  <data name="SensorStatusButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="SensorStatusButton2.Text" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton2.Name" xml:space="preserve">
+    <value>SensorStatusButton2</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton2.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="HeaterConditionLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="HeaterConditionLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="HeaterConditionLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="HeaterConditionLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 252</value>
+  </data>
+  <data name="HeaterConditionLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="HeaterConditionLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="HeaterConditionLabel2.Text" xml:space="preserve">
+    <value>Выключен</value>
+  </data>
+  <data name="&gt;&gt;HeaterConditionLabel2.Name" xml:space="preserve">
+    <value>HeaterConditionLabel2</value>
+  </data>
+  <data name="&gt;&gt;HeaterConditionLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HeaterConditionLabel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;HeaterConditionLabel2.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="TemperaturesLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TemperaturesLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="TemperaturesLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TemperaturesLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 209</value>
+  </data>
+  <data name="TemperaturesLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 19</value>
+  </data>
+  <data name="TemperaturesLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="TemperaturesLabel2.Text" xml:space="preserve">
+    <value>25.97</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel2.Name" xml:space="preserve">
+    <value>TemperaturesLabel2</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel2.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="Sensor2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Sensor2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="Sensor2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Sensor2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 113</value>
+  </data>
+  <data name="Sensor2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="Sensor2.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="Sensor2.Text" xml:space="preserve">
+    <value>Датчик №2</value>
+  </data>
+  <data name="&gt;&gt;Sensor2.Name" xml:space="preserve">
+    <value>Sensor2</value>
+  </data>
+  <data name="&gt;&gt;Sensor2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sensor2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sensor2.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="ShowChartButton4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="ShowChartButton4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ShowChartButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 293</value>
+  </data>
+  <data name="ShowChartButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <data name="ShowChartButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="ShowChartButton4.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton4.Name" xml:space="preserve">
+    <value>ShowChartButton4</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton4.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="SensorStatusButton4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="SensorStatusButton4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SensorStatusButton4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 157</value>
+  </data>
+  <data name="SensorStatusButton4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 32</value>
+  </data>
+  <data name="SensorStatusButton4.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="SensorStatusButton4.Text" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton4.Name" xml:space="preserve">
+    <value>SensorStatusButton4</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton4.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>754, 252</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Выключен</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="TemperaturesLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TemperaturesLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="TemperaturesLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TemperaturesLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>777, 209</value>
+  </data>
+  <data name="TemperaturesLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 19</value>
+  </data>
+  <data name="TemperaturesLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="TemperaturesLabel4.Text" xml:space="preserve">
+    <value>25.97</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel4.Name" xml:space="preserve">
+    <value>TemperaturesLabel4</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel4.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="Sensor4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Sensor4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="Sensor4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Sensor4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 113</value>
+  </data>
+  <data name="Sensor4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="Sensor4.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="Sensor4.Text" xml:space="preserve">
+    <value>Датчик №4</value>
+  </data>
+  <data name="&gt;&gt;Sensor4.Name" xml:space="preserve">
+    <value>Sensor4</value>
+  </data>
+  <data name="&gt;&gt;Sensor4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sensor4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sensor4.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="ShowChartButton3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="ShowChartButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ShowChartButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 293</value>
+  </data>
+  <data name="ShowChartButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <data name="ShowChartButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="ShowChartButton3.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton3.Name" xml:space="preserve">
+    <value>ShowChartButton3</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton3.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="SensorStatusButton3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="SensorStatusButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SensorStatusButton3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 157</value>
+  </data>
+  <data name="SensorStatusButton3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 32</value>
+  </data>
+  <data name="SensorStatusButton3.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="SensorStatusButton3.Text" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton3.Name" xml:space="preserve">
+    <value>SensorStatusButton3</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton3.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>595, 252</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Выключен</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="TemperaturesLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TemperaturesLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="TemperaturesLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TemperaturesLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>618, 209</value>
+  </data>
+  <data name="TemperaturesLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 19</value>
+  </data>
+  <data name="TemperaturesLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="TemperaturesLabel3.Text" xml:space="preserve">
+    <value>25.97</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel3.Name" xml:space="preserve">
+    <value>TemperaturesLabel3</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel3.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="Sensor3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Sensor3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="Sensor3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Sensor3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 113</value>
+  </data>
+  <data name="Sensor3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="Sensor3.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="Sensor3.Text" xml:space="preserve">
+    <value>Датчик №3</value>
+  </data>
+  <data name="&gt;&gt;Sensor3.Name" xml:space="preserve">
+    <value>Sensor3</value>
+  </data>
+  <data name="&gt;&gt;Sensor3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sensor3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sensor3.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="ShowChartButton6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="ShowChartButton6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ShowChartButton6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1046, 293</value>
+  </data>
+  <data name="ShowChartButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <data name="ShowChartButton6.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="ShowChartButton6.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton6.Name" xml:space="preserve">
+    <value>ShowChartButton6</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton6.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="SensorStatusButton6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="SensorStatusButton6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SensorStatusButton6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1046, 157</value>
+  </data>
+  <data name="SensorStatusButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 32</value>
+  </data>
+  <data name="SensorStatusButton6.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="SensorStatusButton6.Text" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton6.Name" xml:space="preserve">
+    <value>SensorStatusButton6</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton6.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1077, 252</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Выключен</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="TemperaturesLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TemperaturesLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="TemperaturesLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TemperaturesLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1100, 209</value>
+  </data>
+  <data name="TemperaturesLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 19</value>
+  </data>
+  <data name="TemperaturesLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="TemperaturesLabel6.Text" xml:space="preserve">
+    <value>25.97</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel6.Name" xml:space="preserve">
+    <value>TemperaturesLabel6</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel6.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="Sensor6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Sensor6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="Sensor6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Sensor6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1066, 113</value>
+  </data>
+  <data name="Sensor6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="Sensor6.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="Sensor6.Text" xml:space="preserve">
+    <value>Датчик №6</value>
+  </data>
+  <data name="&gt;&gt;Sensor6.Name" xml:space="preserve">
+    <value>Sensor6</value>
+  </data>
+  <data name="&gt;&gt;Sensor6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sensor6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sensor6.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="ShowChartButton5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="ShowChartButton5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ShowChartButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>887, 293</value>
+  </data>
+  <data name="ShowChartButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <data name="ShowChartButton5.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="ShowChartButton5.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton5.Name" xml:space="preserve">
+    <value>ShowChartButton5</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton5.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="SensorStatusButton5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="SensorStatusButton5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SensorStatusButton5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>887, 157</value>
+  </data>
+  <data name="SensorStatusButton5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 32</value>
+  </data>
+  <data name="SensorStatusButton5.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="SensorStatusButton5.Text" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton5.Name" xml:space="preserve">
+    <value>SensorStatusButton5</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton5.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>918, 252</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Выключен</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="TemperaturesLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TemperaturesLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="TemperaturesLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TemperaturesLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>941, 209</value>
+  </data>
+  <data name="TemperaturesLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 19</value>
+  </data>
+  <data name="TemperaturesLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="TemperaturesLabel5.Text" xml:space="preserve">
+    <value>25.97</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel5.Name" xml:space="preserve">
+    <value>TemperaturesLabel5</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel5.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="Sensor5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Sensor5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="Sensor5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Sensor5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>907, 113</value>
+  </data>
+  <data name="Sensor5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="Sensor5.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="Sensor5.Text" xml:space="preserve">
+    <value>Датчик №5</value>
+  </data>
+  <data name="&gt;&gt;Sensor5.Name" xml:space="preserve">
+    <value>Sensor5</value>
+  </data>
+  <data name="&gt;&gt;Sensor5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sensor5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sensor5.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="ShowChartButton12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="ShowChartButton12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ShowChartButton12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1046, 586</value>
+  </data>
+  <data name="ShowChartButton12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <data name="ShowChartButton12.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="ShowChartButton12.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton12.Name" xml:space="preserve">
+    <value>ShowChartButton12</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SensorStatusButton12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="SensorStatusButton12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SensorStatusButton12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1046, 450</value>
+  </data>
+  <data name="SensorStatusButton12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 32</value>
+  </data>
+  <data name="SensorStatusButton12.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="SensorStatusButton12.Text" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton12.Name" xml:space="preserve">
+    <value>SensorStatusButton12</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton12.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1077, 545</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Выключен</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TemperaturesLabel12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TemperaturesLabel12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="TemperaturesLabel12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TemperaturesLabel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1100, 502</value>
+  </data>
+  <data name="TemperaturesLabel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 19</value>
+  </data>
+  <data name="TemperaturesLabel12.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="TemperaturesLabel12.Text" xml:space="preserve">
+    <value>25.97</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel12.Name" xml:space="preserve">
+    <value>TemperaturesLabel12</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel12.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Sensor12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Sensor12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="Sensor12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Sensor12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1066, 406</value>
+  </data>
+  <data name="Sensor12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 20</value>
+  </data>
+  <data name="Sensor12.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="Sensor12.Text" xml:space="preserve">
+    <value>Датчик №12</value>
+  </data>
+  <data name="&gt;&gt;Sensor12.Name" xml:space="preserve">
+    <value>Sensor12</value>
+  </data>
+  <data name="&gt;&gt;Sensor12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sensor12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sensor12.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ShowChartButton11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="ShowChartButton11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ShowChartButton11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>887, 586</value>
+  </data>
+  <data name="ShowChartButton11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <data name="ShowChartButton11.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="ShowChartButton11.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton11.Name" xml:space="preserve">
+    <value>ShowChartButton11</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton11.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="SensorStatusButton11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="SensorStatusButton11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SensorStatusButton11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>887, 450</value>
+  </data>
+  <data name="SensorStatusButton11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 32</value>
+  </data>
+  <data name="SensorStatusButton11.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="SensorStatusButton11.Text" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton11.Name" xml:space="preserve">
+    <value>SensorStatusButton11</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton11.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>918, 545</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Выключен</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="TemperaturesLabel11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TemperaturesLabel11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="TemperaturesLabel11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TemperaturesLabel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>941, 502</value>
+  </data>
+  <data name="TemperaturesLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 19</value>
+  </data>
+  <data name="TemperaturesLabel11.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="TemperaturesLabel11.Text" xml:space="preserve">
+    <value>25.97</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel11.Name" xml:space="preserve">
+    <value>TemperaturesLabel11</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel11.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Sensor11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Sensor11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="Sensor11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Sensor11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>907, 406</value>
+  </data>
+  <data name="Sensor11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 20</value>
+  </data>
+  <data name="Sensor11.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="Sensor11.Text" xml:space="preserve">
+    <value>Датчик №11</value>
+  </data>
+  <data name="&gt;&gt;Sensor11.Name" xml:space="preserve">
+    <value>Sensor11</value>
+  </data>
+  <data name="&gt;&gt;Sensor11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sensor11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sensor11.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ShowChartButton10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="ShowChartButton10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ShowChartButton10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 586</value>
+  </data>
+  <data name="ShowChartButton10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <data name="ShowChartButton10.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="ShowChartButton10.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton10.Name" xml:space="preserve">
+    <value>ShowChartButton10</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton10.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="SensorStatusButton10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="SensorStatusButton10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SensorStatusButton10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>723, 450</value>
+  </data>
+  <data name="SensorStatusButton10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 32</value>
+  </data>
+  <data name="SensorStatusButton10.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="SensorStatusButton10.Text" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton10.Name" xml:space="preserve">
+    <value>SensorStatusButton10</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton10.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>754, 545</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Выключен</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="TemperaturesLabel10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TemperaturesLabel10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="TemperaturesLabel10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TemperaturesLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>777, 502</value>
+  </data>
+  <data name="TemperaturesLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 19</value>
+  </data>
+  <data name="TemperaturesLabel10.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="TemperaturesLabel10.Text" xml:space="preserve">
+    <value>25.97</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel10.Name" xml:space="preserve">
+    <value>TemperaturesLabel10</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel10.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Sensor10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Sensor10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="Sensor10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Sensor10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>743, 406</value>
+  </data>
+  <data name="Sensor10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 20</value>
+  </data>
+  <data name="Sensor10.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="Sensor10.Text" xml:space="preserve">
+    <value>Датчик №10</value>
+  </data>
+  <data name="&gt;&gt;Sensor10.Name" xml:space="preserve">
+    <value>Sensor10</value>
+  </data>
+  <data name="&gt;&gt;Sensor10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sensor10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sensor10.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="ShowChartButton9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="ShowChartButton9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ShowChartButton9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 586</value>
+  </data>
+  <data name="ShowChartButton9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <data name="ShowChartButton9.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="ShowChartButton9.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton9.Name" xml:space="preserve">
+    <value>ShowChartButton9</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton9.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="SensorStatusButton9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="SensorStatusButton9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SensorStatusButton9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>564, 450</value>
+  </data>
+  <data name="SensorStatusButton9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 32</value>
+  </data>
+  <data name="SensorStatusButton9.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="SensorStatusButton9.Text" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton9.Name" xml:space="preserve">
+    <value>SensorStatusButton9</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton9.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="label24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>595, 545</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="label24.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Выключен</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="TemperaturesLabel9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TemperaturesLabel9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="TemperaturesLabel9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TemperaturesLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>618, 502</value>
+  </data>
+  <data name="TemperaturesLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 19</value>
+  </data>
+  <data name="TemperaturesLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="TemperaturesLabel9.Text" xml:space="preserve">
+    <value>25.97</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel9.Name" xml:space="preserve">
+    <value>TemperaturesLabel9</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel9.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Sensor9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Sensor9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="Sensor9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Sensor9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>584, 406</value>
+  </data>
+  <data name="Sensor9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="Sensor9.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="Sensor9.Text" xml:space="preserve">
+    <value>Датчик №9</value>
+  </data>
+  <data name="&gt;&gt;Sensor9.Name" xml:space="preserve">
+    <value>Sensor9</value>
+  </data>
+  <data name="&gt;&gt;Sensor9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sensor9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sensor9.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="ShowChartButton8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="ShowChartButton8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ShowChartButton8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 586</value>
+  </data>
+  <data name="ShowChartButton8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <data name="ShowChartButton8.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="ShowChartButton8.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton8.Name" xml:space="preserve">
+    <value>ShowChartButton8</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton8.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="SensorStatusButton8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="SensorStatusButton8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SensorStatusButton8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 450</value>
+  </data>
+  <data name="SensorStatusButton8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 32</value>
+  </data>
+  <data name="SensorStatusButton8.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="SensorStatusButton8.Text" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton8.Name" xml:space="preserve">
+    <value>SensorStatusButton8</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton8.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="label27.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="label27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 545</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="label27.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Выключен</value>
+  </data>
+  <data name="&gt;&gt;label27.Name" xml:space="preserve">
+    <value>label27</value>
+  </data>
+  <data name="&gt;&gt;label27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="TemperaturesLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TemperaturesLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="TemperaturesLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TemperaturesLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 502</value>
+  </data>
+  <data name="TemperaturesLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 19</value>
+  </data>
+  <data name="TemperaturesLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="TemperaturesLabel8.Text" xml:space="preserve">
+    <value>25.97</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel8.Name" xml:space="preserve">
+    <value>TemperaturesLabel8</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel8.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="Sensor8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Sensor8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="Sensor8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Sensor8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 406</value>
+  </data>
+  <data name="Sensor8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="Sensor8.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="Sensor8.Text" xml:space="preserve">
+    <value>Датчик №8</value>
+  </data>
+  <data name="&gt;&gt;Sensor8.Name" xml:space="preserve">
+    <value>Sensor8</value>
+  </data>
+  <data name="&gt;&gt;Sensor8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sensor8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sensor8.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="ShowChartButton7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="ShowChartButton7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ShowChartButton7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 586</value>
+  </data>
+  <data name="ShowChartButton7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 28</value>
+  </data>
+  <data name="ShowChartButton7.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="ShowChartButton7.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton7.Name" xml:space="preserve">
+    <value>ShowChartButton7</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ShowChartButton7.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="labelShowChart2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelShowChart2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="labelShowChart2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelShowChart2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 586</value>
+  </data>
+  <data name="labelShowChart2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 20</value>
+  </data>
+  <data name="labelShowChart2.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="labelShowChart2.Text" xml:space="preserve">
+    <value>График работы</value>
+  </data>
+  <data name="labelShowChart2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;labelShowChart2.Name" xml:space="preserve">
+    <value>labelShowChart2</value>
+  </data>
+  <data name="&gt;&gt;labelShowChart2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelShowChart2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelShowChart2.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="SensorStatusButton7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="SensorStatusButton7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SensorStatusButton7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 450</value>
+  </data>
+  <data name="SensorStatusButton7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 32</value>
+  </data>
+  <data name="SensorStatusButton7.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="SensorStatusButton7.Text" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton7.Name" xml:space="preserve">
+    <value>SensorStatusButton7</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SensorStatusButton7.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="labelSensorStatus2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSensorStatus2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="labelSensorStatus2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSensorStatus2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 462</value>
+  </data>
+  <data name="labelSensorStatus2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="labelSensorStatus2.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="labelSensorStatus2.Text" xml:space="preserve">
+    <value>Управление датчиком</value>
+  </data>
+  <data name="&gt;&gt;labelSensorStatus2.Name" xml:space="preserve">
+    <value>labelSensorStatus2</value>
+  </data>
+  <data name="&gt;&gt;labelSensorStatus2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSensorStatus2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelSensorStatus2.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="label32.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label32.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="label32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 545</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="label32.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>Выключен</value>
+  </data>
+  <data name="&gt;&gt;label32.Name" xml:space="preserve">
+    <value>label32</value>
+  </data>
+  <data name="&gt;&gt;label32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label32.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label32.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="TemperaturesLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TemperaturesLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9pt</value>
+  </data>
+  <data name="TemperaturesLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TemperaturesLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 502</value>
+  </data>
+  <data name="TemperaturesLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 19</value>
+  </data>
+  <data name="TemperaturesLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="TemperaturesLabel7.Text" xml:space="preserve">
+    <value>25.97</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel7.Name" xml:space="preserve">
+    <value>TemperaturesLabel7</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TemperaturesLabel7.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="Sensor7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Sensor7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="Sensor7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Sensor7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 406</value>
+  </data>
+  <data name="Sensor7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="Sensor7.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="Sensor7.Text" xml:space="preserve">
+    <value>Датчик №7</value>
+  </data>
+  <data name="&gt;&gt;Sensor7.Name" xml:space="preserve">
+    <value>Sensor7</value>
+  </data>
+  <data name="&gt;&gt;Sensor7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sensor7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sensor7.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="abelHeaterCondition2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="abelHeaterCondition2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="abelHeaterCondition2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="abelHeaterCondition2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 543</value>
+  </data>
+  <data name="abelHeaterCondition2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 20</value>
+  </data>
+  <data name="abelHeaterCondition2.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="abelHeaterCondition2.Text" xml:space="preserve">
+    <value>Состояние нагревателя</value>
+  </data>
+  <data name="abelHeaterCondition2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;abelHeaterCondition2.Name" xml:space="preserve">
+    <value>abelHeaterCondition2</value>
+  </data>
+  <data name="&gt;&gt;abelHeaterCondition2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;abelHeaterCondition2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;abelHeaterCondition2.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="labelTemperatures2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTemperatures2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt</value>
+  </data>
+  <data name="labelTemperatures2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelTemperatures2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 502</value>
+  </data>
+  <data name="labelTemperatures2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 20</value>
+  </data>
+  <data name="labelTemperatures2.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="labelTemperatures2.Text" xml:space="preserve">
+    <value>Значение температуры</value>
+  </data>
+  <data name="labelTemperatures2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;labelTemperatures2.Name" xml:space="preserve">
+    <value>labelTemperatures2</value>
+  </data>
+  <data name="&gt;&gt;labelTemperatures2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTemperatures2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelTemperatures2.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1226, 800</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Панель управления</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
