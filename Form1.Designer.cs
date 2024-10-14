@@ -106,6 +106,7 @@
             resources.ApplyResources(this.ShowChartButton, "ShowChartButton");
             this.ShowChartButton.Name = "ShowChartButton";
             this.ShowChartButton.UseVisualStyleBackColor = true;
+            this.ShowChartButton.Click += new System.EventHandler(this.ShowChartButton_Click);
             // 
             // labelShowChart
             // 
@@ -118,6 +119,7 @@
             this.SensorStatusButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.SensorStatusButton.Name = "SensorStatusButton";
             this.SensorStatusButton.UseVisualStyleBackColor = true;
+            this.SensorStatusButton.Click += new System.EventHandler(this.SensorStatusButton_Click);
             // 
             // labelSensorStatus
             // 

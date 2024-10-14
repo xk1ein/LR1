@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar;
 using System.Windows.Forms.DataVisualization.Charting;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Diagnostics;
 
 namespace LR1 // TemperatureControlSystem
 {
@@ -35,8 +36,6 @@ namespace LR1 // TemperatureControlSystem
 
         // new Random random = new Random(); // Переменная для отслеживания критической ситуации (можно сделать функцию с добавление рандомного значения, тем самым проверив, что процесс остановится)
 
-        Form2 chartWindow = new Form2(); // Инициализация формы для графика
-
         Timer temperatureTimer = new Timer(); // Таймер (для реализации обновления данных в реальном времени на Form1)
 
         public Form1()
@@ -51,13 +50,14 @@ namespace LR1 // TemperatureControlSystem
             temperatureTimer.Tick += TemperatureTimerUpdate;
             temperatureTimer.Start();
 
-            ShowChartButton.Click += ShowChartButton_Click; // Срабатывает при нажатии кнопки "Открыть график"
             ShowChartButton2.Click += ShowChartButton_Click;
+            ShowChartButton3.Click += ShowChartButton_Click;
         }
 
         private void ShowChartButton_Click(object sender, EventArgs e) // График для датчиков
         {
-            chartWindow.Show(); // Отрабатывает только один раз(
+            Form2 chartWindow = new Form2(); // Инициализация формы для графика
+            chartWindow.Show();
         }
 
         private void InitializeTemperatureSystem() // Функция инициализации начальных температур
@@ -104,5 +104,48 @@ namespace LR1 // TemperatureControlSystem
             }
             // дальше скорее всего шаг времени нужно прибавлять (хотя нафига....)
         }
+
+        private async void SensorStatusButton_Click(object sender, EventArgs e)
+        {
+            if (InputSetPointTemperaturetextBox.Text == "")
+            {
+                DialogResult msg = DialogResult.OK;
+                msg = MessageBox.Show("Необходимо ввести температуру уставки!",
+                            "Температура уставки",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            if (SensorStatusButton.Text == "Включить")
+            {
+                SensorStatusButton.Text = "Выключить";
+                Stopwatch t = new Stopwatch();
+                t.Start();
+
+                while (StartTemperatures[0] < Convert.ToInt32(InputSetPointTemperaturetextBox.Text) + ControlAccuracy)
+                {
+                    StartTemperatures[0] = 210 * (1 - Math.Exp(-0.22 * t.Elapsed.TotalSeconds));
+                    await Task.Delay(100);
+                    TemperaturesLabel.Text = (StartTemperatures[0] - (StartTemperatures[0] % 0.01)).ToString();
+                }
+                while (StartTemperatures[0] > Convert.ToInt32(InputSetPointTemperaturetextBox.Text) - ControlAccuracy)
+                {
+                    StartTemperatures[0] = 175 * (Math.Exp(-0.13 * t.Elapsed.TotalSeconds));
+                    await Task.Delay(1);
+                    TemperaturesLabel.Text = (StartTemperatures[0] - (StartTemperatures[0] % 0.01)).ToString();
+                }
+            }
+            else if(SensorStatusButton.Text == "Выключить")
+            {
+                SensorStatusButton.Text = "Включить";
+            }
+        }
+
+        /*private EventHandler showChart(int a)
+        {
+            Form2 chartWindow = new Form2(); // Инициализация формы для графика
+            chartWindow.Text = "График работы датчика " + a.ToString();
+            chartWindow.Show();
+            return();
+        }*/
     }
 }
