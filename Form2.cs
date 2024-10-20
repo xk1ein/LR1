@@ -3,31 +3,26 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Globalization;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace LR1
 {
     public partial class Form2 : Form
     {
-        // Исходные данные
-        private const int SensorCount = 24; // Количество датчиков
-        private const double ControlAccuracy = 4.0; // Точность управления
-
-        private const double SetPointTemp = 170; // Температура уставки
-
-        private double LowerCriticalTemp = SetPointTemp + ControlAccuracy; // Верхний предел критической ситуации
-        private double UpperCriticalTemp = SetPointTemp - ControlAccuracy; // Нижний предел критической ситуации
-
         public Form2()
         {
             InitializeComponent();
-            InitializeChart(); // скорее всего, инициализацию графика нужно будет потом на второе окно перебросить
+            InitializeChart();
 
-            Chart temperatureChart = (Chart)this.Controls.Find("Figure", true)[0];
+            Chart temperatureChart = (Chart)this.Controls.Find("Figure", true)[0]; // Вызов функции построения
             PlotTemperature(temperatureChart);
         }
 
@@ -40,53 +35,86 @@ namespace LR1
             {
                 ChartType = SeriesChartType.Line
             });
-
             temperatureChart.Name = "Figure";
+
+            Series series = temperatureChart.Series["Temperature"];
+            series.Color = Color.Red;
+            series.BorderWidth = 2; 
+            series.BorderColor = Color.Red;
             this.Controls.Add(temperatureChart);
         }
 
-        private void PlotTemperature(Chart temperatureChart) // График изменения температуры от времени
+        // функция построения графика отличается от логики изменения температуры способом инициализации временных интервалов (timer/ time, timeTemp, timeOut)
+        private void PlotTemperature(Chart temperatureChart) // Смодулированный график работы датчика
         {
-            double currentTemperature = 25.97; // Строим график от комнатной температуры
-            double time = 0.0;
-            double timeOut; // Переменная для сброса времени при повторном нагревании/охлаждении
-            double timeStep = 0.087428911; // Период опроса датчиков
-            bool heater_status = false;
+            Form1 frm1 = new Form1();
+            string Temperature = frm1.Temperature;
+            double SetPointTemp = Convert.ToDouble(Temperature); // Температура уставки
 
-            temperatureChart.Series["Temperature"].Points.Clear();
+            // Исходные данные
+            double ControlAccuracy = 4.0; // Точность управления
+                     
+            double LowerCriticalTemp = SetPointTemp + ControlAccuracy; // Верхний предел критической ситуации 
+            double UpperCriticalTemp = SetPointTemp - ControlAccuracy; // Нижний предел критической ситуации
 
-            while (time <= 10) // Произвольное значение времени для демонстрации процесса
+            double currentTemperature = 25.97;
+            double time = 0.1;
+            double timeOut = 0.1;
+            int i = 0;
+            double ControlTemperature = 0.0;
+
+            temperatureChart.Series["Temperature"].Points.Clear(); // Перед построением графика для каждого датчика стираем предыдущие данные
+
+            while (time <= 10)
             {
-                if (currentTemperature < LowerCriticalTemp && time <= 0.6)  // Верхний предел критической ситуации 174
+                if (currentTemperature < LowerCriticalTemp && time <= 0.6)
                 {
                     currentTemperature = 25.97;
+                    temperatureChart.Series["Temperature"].Points.AddXY(time, currentTemperature);
                 }
-                else if (currentTemperature < LowerCriticalTemp && time > 0.6) // Нагревание до верхней границы (174)
+                else if (currentTemperature < LowerCriticalTemp && time > 0.6)
                 {
-                    heater_status = true; // Включаем нагреватель
-                    currentTemperature = 210 * (1 - Math.Exp(-0.22 * time)); // Функция нагревания
-                }
-                else if (currentTemperature >= LowerCriticalTemp && currentTemperature >= UpperCriticalTemp) // Температура >= 174 и Температура >= 166
-                {
-                    timeOut = time;
-                    timeOut = 0.1; // сброс времени для охлаждения
-                    heater_status = false; // Выключаем нагреватель
-                    currentTemperature = 175 * Math.Exp(-0.13 * timeOut); // Функция остывания
-                }
-                else if (currentTemperature < UpperCriticalTemp || currentTemperature <= LowerCriticalTemp) // Температура ниже минимально допустимой границы
-                {
-                    timeOut = time;
-                    timeOut = 0.1; // Сброс времени для нагрева
-                    heater_status = true; // Включаем нагреватель
-                    currentTemperature = 210 * (1 - Math.Exp(-0.22 * timeOut)); // Функция нагревания
-                    if (currentTemperature > LowerCriticalTemp)
+                    if (i == 0)
                     {
-                        currentTemperature = 175 * Math.Exp(-0.13 * time);
+                        double tempTime = 0.1;
+                        while (currentTemperature < LowerCriticalTemp)
+                        {
+                            currentTemperature = 210 * (1 - Math.Exp(-0.22 * tempTime));
+                            temperatureChart.Series["Temperature"].Points.AddXY(time, currentTemperature);
+
+                            tempTime += timeOut;
+                            time += timeOut;
+                        }
                     }
-                    // Нагревается почему-то до 200, нужно последнее условие пересмотреть потом
+                    else
+                    {
+                        double tempTime = 0.1;
+                        while (currentTemperature < LowerCriticalTemp)
+                        {
+                            currentTemperature = ControlTemperature + 210 * (1 - Math.Exp(-0.22 * tempTime));
+                            temperatureChart.Series["Temperature"].Points.AddXY(time, currentTemperature);
+
+                            tempTime += timeOut;
+                            time += timeOut;
+                        }
+                    }
                 }
-                time += timeStep;
+                else if (currentTemperature >= LowerCriticalTemp && time > 0.6)
+                {
+                    double tempTime = 0.1;
+                    while (currentTemperature > UpperCriticalTemp)
+                    {
+                        currentTemperature = 175 * (Math.Exp(-0.13 * tempTime));
+                        
+                        tempTime += timeOut;
+                        time += timeOut;
+                    }
+                }
+                i = 1;
+                ControlTemperature = currentTemperature;
+                
                 temperatureChart.Series["Temperature"].Points.AddXY(time, currentTemperature);
+                time += timeOut;
             }
         }
     }
