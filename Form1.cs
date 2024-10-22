@@ -56,17 +56,9 @@ namespace LR1 // TemperatureControlSystem
             SensorStatusButton24.Click += SensorStatusButton24_Click;
         }
 
-        public string Temperature
-        {
-            get
-            {
-               return InputSetPointTemperaturetextBox.Text; //= " 160 ";
-            }
-        }
-
         private void ShowChartButton_Click(object sender, EventArgs e) // Вызов функции построения графика работы датчика
         {
-            Form2 chartWindow = new Form2(); // Инициализация формы для графика
+            Form2 chartWindow = new Form2(Convert.ToDouble(InputSetPointTemperaturetextBox.Text)); // Инициализация формы для графика
             chartWindow.Show();
         }
                      
@@ -1323,7 +1315,7 @@ namespace LR1 // TemperatureControlSystem
                         if (i == 0) // Срабатывает только один раз - при первом нагревании
                         {
                             StartTemperatures[0] = 210 * (1 - Math.Exp(-0.22 * t.Elapsed.TotalSeconds)); // Нагревание
-                            await Task.Delay(350);
+                            await Task.Delay(500);
                             TemperaturesLabel.Text = (StartTemperatures[0] - (StartTemperatures[0] % 0.01)).ToString();
                         }
                         else // Срабатывает после первого остывания и далее (i == 1)
@@ -1333,7 +1325,7 @@ namespace LR1 // TemperatureControlSystem
                             do
                             {
                                 StartTemperatures[0] = ControlTemperature + 210 * (1 - Math.Exp(-0.22 * tempTime)); // Вторая итерация нагревания и далее
-                                await Task.Delay(350);
+                                await Task.Delay(500);
                                 TemperaturesLabel.Text = (StartTemperatures[0] - (StartTemperatures[0] % 0.01)).ToString();
 
                                 tempTime += timeOut;
@@ -1354,7 +1346,7 @@ namespace LR1 // TemperatureControlSystem
                         do
                         {
                             StartTemperatures[0] = 175 * (Math.Exp(-0.13 * tempTime)); // Остывание
-                            await Task.Delay(350);
+                            await Task.Delay(500);
                             TemperaturesLabel.Text = (StartTemperatures[0] - (StartTemperatures[0] % 0.01)).ToString();
 
                             tempTime += timeOut;

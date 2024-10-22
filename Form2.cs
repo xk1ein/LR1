@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,13 +18,15 @@ namespace LR1
 {
     public partial class Form2 : Form
     {
-        public Form2()
+        public Form2(double Temp)
         {
             InitializeComponent();
             InitializeChart();
 
+            double TempU = Temp;
+
             Chart temperatureChart = (Chart)this.Controls.Find("Figure", true)[0]; // Вызов функции построения
-            PlotTemperature(temperatureChart);
+            PlotTemperature(temperatureChart,  TempU);
         }
 
         private void InitializeChart() // Функция инициализации графика
@@ -44,12 +47,15 @@ namespace LR1
             this.Controls.Add(temperatureChart);
         }
 
+        public string SetPoint_(string temp_)
+        {     
+            return temp_;
+        }
+
         // функция построения графика отличается от логики изменения температуры способом инициализации временных интервалов (timer/ time, timeTemp, timeOut)
-        private void PlotTemperature(Chart temperatureChart) // Смодулированный график работы датчика
+        private void PlotTemperature(Chart temperatureChart, double TempU) // Смодулированный график работы датчика
         {
-            Form1 frm1 = new Form1();
-            string Temperature = frm1.Temperature;
-            double SetPointTemp = Convert.ToDouble(Temperature); // Температура уставки
+            double SetPointTemp = TempU; // Температура уставки
 
             // Исходные данные
             double ControlAccuracy = 4.0; // Точность управления

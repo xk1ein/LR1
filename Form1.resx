@@ -128,6 +128,9 @@
   <data name="ShowChartButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>243, 247</value>
   </data>
+  <data name="ShowChartButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="ShowChartButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 28</value>
   </data>
@@ -194,6 +197,9 @@
   </data>
   <data name="SensorStatusButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>243, 111</value>
+  </data>
+  <data name="SensorStatusButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -292,7 +298,7 @@
     <value>NoControl</value>
   </data>
   <data name="TemperaturesLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>274, 165</value>
+    <value>275, 165</value>
   </data>
   <data name="TemperaturesLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 19</value>
@@ -421,7 +427,10 @@
     <value>185</value>
   </data>
   <data name="InputSetPointTemperaturetextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>551, 29</value>
+    <value>551, 30</value>
+  </data>
+  <data name="InputSetPointTemperaturetextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="InputSetPointTemperaturetextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>219, 22</value>
@@ -451,7 +460,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelInputSetPointTemperature.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 29</value>
+    <value>21, 30</value>
   </data>
   <data name="labelInputSetPointTemperature.Size" type="System.Drawing.Size, System.Drawing">
     <value>490, 20</value>
@@ -481,7 +490,10 @@
     <value>NoControl</value>
   </data>
   <data name="ShowChartButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>370, 247</value>
+    <value>371, 247</value>
+  </data>
+  <data name="ShowChartButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="ShowChartButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 28</value>
@@ -511,7 +523,10 @@
     <value>NoControl</value>
   </data>
   <data name="SensorStatusButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>370, 111</value>
+    <value>371, 111</value>
+  </data>
+  <data name="SensorStatusButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton2.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -642,6 +657,9 @@
   <data name="ShowChartButton4.Location" type="System.Drawing.Point, System.Drawing">
     <value>625, 247</value>
   </data>
+  <data name="ShowChartButton4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="ShowChartButton4.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 28</value>
   </data>
@@ -671,6 +689,9 @@
   </data>
   <data name="SensorStatusButton4.Location" type="System.Drawing.Point, System.Drawing">
     <value>625, 111</value>
+  </data>
+  <data name="SensorStatusButton4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton4.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -799,7 +820,10 @@
     <value>NoControl</value>
   </data>
   <data name="ShowChartButton3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>498, 247</value>
+    <value>499, 247</value>
+  </data>
+  <data name="ShowChartButton3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="ShowChartButton3.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 28</value>
@@ -829,7 +853,10 @@
     <value>NoControl</value>
   </data>
   <data name="SensorStatusButton3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>498, 111</value>
+    <value>499, 111</value>
+  </data>
+  <data name="SensorStatusButton3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton3.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -895,7 +922,7 @@
     <value>NoControl</value>
   </data>
   <data name="TemperaturesLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>534, 163</value>
+    <value>533, 162</value>
   </data>
   <data name="TemperaturesLabel3.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 19</value>
@@ -958,7 +985,10 @@
     <value>NoControl</value>
   </data>
   <data name="ShowChartButton6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>874, 247</value>
+    <value>875, 247</value>
+  </data>
+  <data name="ShowChartButton6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="ShowChartButton6.Size" type="System.Drawing.Size, System.Drawing">
     <value>119, 28</value>
@@ -988,7 +1018,10 @@
     <value>NoControl</value>
   </data>
   <data name="SensorStatusButton6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>874, 111</value>
+    <value>875, 111</value>
+  </data>
+  <data name="SensorStatusButton6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton6.Size" type="System.Drawing.Size, System.Drawing">
     <value>119, 32</value>
@@ -1054,7 +1087,7 @@
     <value>NoControl</value>
   </data>
   <data name="TemperaturesLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>915, 163</value>
+    <value>915, 162</value>
   </data>
   <data name="TemperaturesLabel6.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 19</value>
@@ -1117,7 +1150,10 @@
     <value>NoControl</value>
   </data>
   <data name="ShowChartButton5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>750, 247</value>
+    <value>749, 247</value>
+  </data>
+  <data name="ShowChartButton5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="ShowChartButton5.Size" type="System.Drawing.Size, System.Drawing">
     <value>109, 28</value>
@@ -1147,7 +1183,10 @@
     <value>NoControl</value>
   </data>
   <data name="SensorStatusButton5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>750, 111</value>
+    <value>749, 111</value>
+  </data>
+  <data name="SensorStatusButton5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton5.Size" type="System.Drawing.Size, System.Drawing">
     <value>109, 32</value>
@@ -1180,7 +1219,7 @@
     <value>NoControl</value>
   </data>
   <data name="HeaterConditionLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>766, 206</value>
+    <value>765, 206</value>
   </data>
   <data name="HeaterConditionLabel5.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 19</value>
@@ -1278,6 +1317,9 @@
   <data name="ShowChartButton12.Location" type="System.Drawing.Point, System.Drawing">
     <value>627, 582</value>
   </data>
+  <data name="ShowChartButton12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="ShowChartButton12.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 28</value>
   </data>
@@ -1306,7 +1348,10 @@
     <value>NoControl</value>
   </data>
   <data name="SensorStatusButton12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>625, 456</value>
+    <value>625, 455</value>
+  </data>
+  <data name="SensorStatusButton12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton12.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -1435,7 +1480,10 @@
     <value>NoControl</value>
   </data>
   <data name="ShowChartButton11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>498, 582</value>
+    <value>499, 582</value>
+  </data>
+  <data name="ShowChartButton11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="ShowChartButton11.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 28</value>
@@ -1465,7 +1513,10 @@
     <value>NoControl</value>
   </data>
   <data name="SensorStatusButton11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>498, 456</value>
+    <value>499, 455</value>
+  </data>
+  <data name="SensorStatusButton11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton11.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -1531,7 +1582,7 @@
     <value>NoControl</value>
   </data>
   <data name="TemperaturesLabel11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>534, 503</value>
+    <value>533, 503</value>
   </data>
   <data name="TemperaturesLabel11.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 19</value>
@@ -1594,7 +1645,10 @@
     <value>NoControl</value>
   </data>
   <data name="ShowChartButton10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>370, 582</value>
+    <value>371, 582</value>
+  </data>
+  <data name="ShowChartButton10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="ShowChartButton10.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 28</value>
@@ -1624,7 +1678,10 @@
     <value>NoControl</value>
   </data>
   <data name="SensorStatusButton10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>370, 456</value>
+    <value>371, 455</value>
+  </data>
+  <data name="SensorStatusButton10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton10.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -1657,7 +1714,7 @@
     <value>NoControl</value>
   </data>
   <data name="HeaterConditionLabel10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>386, 544</value>
+    <value>387, 544</value>
   </data>
   <data name="HeaterConditionLabel10.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 19</value>
@@ -1755,6 +1812,9 @@
   <data name="ShowChartButton9.Location" type="System.Drawing.Point, System.Drawing">
     <value>243, 582</value>
   </data>
+  <data name="ShowChartButton9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="ShowChartButton9.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 28</value>
   </data>
@@ -1783,7 +1843,10 @@
     <value>NoControl</value>
   </data>
   <data name="SensorStatusButton9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>243, 456</value>
+    <value>243, 455</value>
+  </data>
+  <data name="SensorStatusButton9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton9.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -1849,7 +1912,7 @@
     <value>NoControl</value>
   </data>
   <data name="TemperaturesLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>274, 503</value>
+    <value>275, 503</value>
   </data>
   <data name="TemperaturesLabel9.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 19</value>
@@ -1914,6 +1977,9 @@
   <data name="ShowChartButton8.Location" type="System.Drawing.Point, System.Drawing">
     <value>1139, 247</value>
   </data>
+  <data name="ShowChartButton8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="ShowChartButton8.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 28</value>
   </data>
@@ -1943,6 +2009,9 @@
   </data>
   <data name="SensorStatusButton8.Location" type="System.Drawing.Point, System.Drawing">
     <value>1139, 111</value>
+  </data>
+  <data name="SensorStatusButton8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton8.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -1975,7 +2044,7 @@
     <value>NoControl</value>
   </data>
   <data name="HeaterConditionLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1158, 206</value>
+    <value>1157, 206</value>
   </data>
   <data name="HeaterConditionLabel8.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 19</value>
@@ -2073,6 +2142,9 @@
   <data name="ShowChartButton7.Location" type="System.Drawing.Point, System.Drawing">
     <value>1009, 247</value>
   </data>
+  <data name="ShowChartButton7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="ShowChartButton7.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 28</value>
   </data>
@@ -2139,6 +2211,9 @@
   <data name="SensorStatusButton7.Location" type="System.Drawing.Point, System.Drawing">
     <value>1009, 111</value>
   </data>
+  <data name="SensorStatusButton7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="SensorStatusButton7.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
   </data>
@@ -2170,7 +2245,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelSensorStatus2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 461</value>
+    <value>24, 462</value>
   </data>
   <data name="labelSensorStatus2.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 20</value>
@@ -2371,7 +2446,7 @@
     <value>Microsoft YaHei, 9pt</value>
   </data>
   <data name="labelTabletingStatus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 299</value>
+    <value>21, 299</value>
   </data>
   <data name="labelTabletingStatus.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 20</value>
@@ -2431,7 +2506,7 @@
     <value>Microsoft Tai Le, 9pt</value>
   </data>
   <data name="TabletingStatusLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 301</value>
+    <value>249, 302</value>
   </data>
   <data name="TabletingStatusLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 19</value>
@@ -2527,7 +2602,7 @@
     <value>NoControl</value>
   </data>
   <data name="TabletingStatusLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>376, 301</value>
+    <value>376, 302</value>
   </data>
   <data name="TabletingStatusLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 19</value>
@@ -2560,7 +2635,7 @@
     <value>NoControl</value>
   </data>
   <data name="AccidentStatusLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>534, 339</value>
+    <value>533, 338</value>
   </data>
   <data name="AccidentStatusLabel3.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 19</value>
@@ -2593,7 +2668,7 @@
     <value>NoControl</value>
   </data>
   <data name="TabletingStatusLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>512, 301</value>
+    <value>512, 302</value>
   </data>
   <data name="TabletingStatusLabel3.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 19</value>
@@ -2725,7 +2800,7 @@
     <value>NoControl</value>
   </data>
   <data name="TabletingStatusLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>761, 301</value>
+    <value>761, 302</value>
   </data>
   <data name="TabletingStatusLabel5.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 19</value>
@@ -2791,7 +2866,7 @@
     <value>NoControl</value>
   </data>
   <data name="TabletingStatusLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>891, 301</value>
+    <value>891, 302</value>
   </data>
   <data name="TabletingStatusLabel6.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 19</value>
@@ -2824,7 +2899,7 @@
     <value>NoControl</value>
   </data>
   <data name="AccidentStatusLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1044, 339</value>
+    <value>1044, 338</value>
   </data>
   <data name="AccidentStatusLabel7.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 19</value>
@@ -2857,7 +2932,7 @@
     <value>NoControl</value>
   </data>
   <data name="TabletingStatusLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1026, 301</value>
+    <value>1027, 302</value>
   </data>
   <data name="TabletingStatusLabel7.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 19</value>
@@ -2890,7 +2965,7 @@
     <value>NoControl</value>
   </data>
   <data name="AccidentStatusLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1180, 339</value>
+    <value>1180, 338</value>
   </data>
   <data name="AccidentStatusLabel8.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 19</value>
@@ -2923,7 +2998,7 @@
     <value>NoControl</value>
   </data>
   <data name="TabletingStatusLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1153, 301</value>
+    <value>1153, 302</value>
   </data>
   <data name="TabletingStatusLabel8.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 19</value>
@@ -3088,7 +3163,7 @@
     <value>NoControl</value>
   </data>
   <data name="AccidentStatusLabel14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>910, 673</value>
+    <value>909, 673</value>
   </data>
   <data name="AccidentStatusLabel14.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 19</value>
@@ -3187,7 +3262,7 @@
     <value>NoControl</value>
   </data>
   <data name="TabletingStatusLabel13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>766, 634</value>
+    <value>765, 634</value>
   </data>
   <data name="TabletingStatusLabel13.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 19</value>
@@ -3418,7 +3493,7 @@
     <value>NoControl</value>
   </data>
   <data name="AccidentStatusLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 673</value>
+    <value>277, 673</value>
   </data>
   <data name="AccidentStatusLabel9.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 19</value>
@@ -3451,7 +3526,7 @@
     <value>NoControl</value>
   </data>
   <data name="TabletingStatusLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>254, 633</value>
+    <value>253, 633</value>
   </data>
   <data name="TabletingStatusLabel9.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 19</value>
@@ -3517,7 +3592,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelTabletingStatus2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 632</value>
+    <value>21, 633</value>
   </data>
   <data name="labelTabletingStatus2.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 20</value>
@@ -3549,6 +3624,9 @@
   <data name="ShowChartButton16.Location" type="System.Drawing.Point, System.Drawing">
     <value>1137, 582</value>
   </data>
+  <data name="ShowChartButton16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="ShowChartButton16.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 28</value>
   </data>
@@ -3577,7 +3655,10 @@
     <value>NoControl</value>
   </data>
   <data name="SensorStatusButton16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1135, 456</value>
+    <value>1135, 455</value>
+  </data>
+  <data name="SensorStatusButton16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton16.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -3643,7 +3724,7 @@
     <value>NoControl</value>
   </data>
   <data name="TemperaturesLabel16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1166, 503</value>
+    <value>1165, 503</value>
   </data>
   <data name="TemperaturesLabel16.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 19</value>
@@ -3676,7 +3757,7 @@
     <value>NoControl</value>
   </data>
   <data name="Sensor16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1142, 423</value>
+    <value>1141, 423</value>
   </data>
   <data name="Sensor16.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 20</value>
@@ -3708,6 +3789,9 @@
   <data name="ShowChartButton15.Location" type="System.Drawing.Point, System.Drawing">
     <value>1008, 582</value>
   </data>
+  <data name="ShowChartButton15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="ShowChartButton15.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 28</value>
   </data>
@@ -3736,7 +3820,10 @@
     <value>NoControl</value>
   </data>
   <data name="SensorStatusButton15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1008, 456</value>
+    <value>1008, 455</value>
+  </data>
+  <data name="SensorStatusButton15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton15.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -3769,7 +3856,7 @@
     <value>NoControl</value>
   </data>
   <data name="HeaterConditionLabel15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1022, 543</value>
+    <value>1021, 543</value>
   </data>
   <data name="HeaterConditionLabel15.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 19</value>
@@ -3867,6 +3954,9 @@
   <data name="ShowChartButton14.Location" type="System.Drawing.Point, System.Drawing">
     <value>880, 582</value>
   </data>
+  <data name="ShowChartButton14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="ShowChartButton14.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 28</value>
   </data>
@@ -3895,7 +3985,10 @@
     <value>NoControl</value>
   </data>
   <data name="SensorStatusButton14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>880, 456</value>
+    <value>880, 455</value>
+  </data>
+  <data name="SensorStatusButton14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton14.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -4026,6 +4119,9 @@
   <data name="ShowChartButton13.Location" type="System.Drawing.Point, System.Drawing">
     <value>753, 582</value>
   </data>
+  <data name="ShowChartButton13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="ShowChartButton13.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 28</value>
   </data>
@@ -4054,7 +4150,10 @@
     <value>NoControl</value>
   </data>
   <data name="SensorStatusButton13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>753, 456</value>
+    <value>753, 455</value>
+  </data>
+  <data name="SensorStatusButton13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton13.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -4153,7 +4252,7 @@
     <value>NoControl</value>
   </data>
   <data name="Sensor13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>758, 423</value>
+    <value>757, 423</value>
   </data>
   <data name="Sensor13.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 20</value>
@@ -4185,6 +4284,9 @@
   <data name="ShowChartButton24.Location" type="System.Drawing.Point, System.Drawing">
     <value>1137, 911</value>
   </data>
+  <data name="ShowChartButton24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="ShowChartButton24.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 28</value>
   </data>
@@ -4214,6 +4316,9 @@
   </data>
   <data name="SensorStatusButton24.Location" type="System.Drawing.Point, System.Drawing">
     <value>1135, 785</value>
+  </data>
+  <data name="SensorStatusButton24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton24.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -4279,7 +4384,7 @@
     <value>NoControl</value>
   </data>
   <data name="TemperaturesLabel24.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1166, 832</value>
+    <value>1165, 832</value>
   </data>
   <data name="TemperaturesLabel24.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 19</value>
@@ -4312,7 +4417,7 @@
     <value>NoControl</value>
   </data>
   <data name="Sensor24.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1142, 752</value>
+    <value>1141, 752</value>
   </data>
   <data name="Sensor24.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 20</value>
@@ -4344,6 +4449,9 @@
   <data name="ShowChartButton23.Location" type="System.Drawing.Point, System.Drawing">
     <value>1008, 911</value>
   </data>
+  <data name="ShowChartButton23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="ShowChartButton23.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 28</value>
   </data>
@@ -4373,6 +4481,9 @@
   </data>
   <data name="SensorStatusButton23.Location" type="System.Drawing.Point, System.Drawing">
     <value>1008, 785</value>
+  </data>
+  <data name="SensorStatusButton23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton23.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -4405,7 +4516,7 @@
     <value>NoControl</value>
   </data>
   <data name="HeaterConditionLabel23.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1022, 872</value>
+    <value>1021, 871</value>
   </data>
   <data name="HeaterConditionLabel23.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 19</value>
@@ -4503,6 +4614,9 @@
   <data name="ShowChartButton22.Location" type="System.Drawing.Point, System.Drawing">
     <value>880, 911</value>
   </data>
+  <data name="ShowChartButton22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="ShowChartButton22.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 28</value>
   </data>
@@ -4532,6 +4646,9 @@
   </data>
   <data name="SensorStatusButton22.Location" type="System.Drawing.Point, System.Drawing">
     <value>880, 785</value>
+  </data>
+  <data name="SensorStatusButton22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton22.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -4662,6 +4779,9 @@
   <data name="ShowChartButton21.Location" type="System.Drawing.Point, System.Drawing">
     <value>753, 911</value>
   </data>
+  <data name="ShowChartButton21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="ShowChartButton21.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 28</value>
   </data>
@@ -4691,6 +4811,9 @@
   </data>
   <data name="SensorStatusButton21.Location" type="System.Drawing.Point, System.Drawing">
     <value>753, 785</value>
+  </data>
+  <data name="SensorStatusButton21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton21.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -4789,7 +4912,7 @@
     <value>NoControl</value>
   </data>
   <data name="Sensor21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>758, 752</value>
+    <value>757, 752</value>
   </data>
   <data name="Sensor21.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 20</value>
@@ -4855,7 +4978,7 @@
     <value>NoControl</value>
   </data>
   <data name="TabletingStatusLabel24.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1151, 963</value>
+    <value>1151, 962</value>
   </data>
   <data name="TabletingStatusLabel24.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 19</value>
@@ -4921,7 +5044,7 @@
     <value>NoControl</value>
   </data>
   <data name="TabletingStatusLabel23.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1020, 963</value>
+    <value>1020, 962</value>
   </data>
   <data name="TabletingStatusLabel23.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 19</value>
@@ -4954,7 +5077,7 @@
     <value>NoControl</value>
   </data>
   <data name="AccidentStatusLabel22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>915, 1005</value>
+    <value>915, 1006</value>
   </data>
   <data name="AccidentStatusLabel22.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 19</value>
@@ -4987,7 +5110,7 @@
     <value>NoControl</value>
   </data>
   <data name="TabletingStatusLabel22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>891, 963</value>
+    <value>891, 962</value>
   </data>
   <data name="TabletingStatusLabel22.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 19</value>
@@ -5020,7 +5143,7 @@
     <value>NoControl</value>
   </data>
   <data name="AccidentStatusLabel21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>789, 1005</value>
+    <value>789, 1006</value>
   </data>
   <data name="AccidentStatusLabel21.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 19</value>
@@ -5053,7 +5176,7 @@
     <value>NoControl</value>
   </data>
   <data name="TabletingStatusLabel21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>766, 963</value>
+    <value>765, 962</value>
   </data>
   <data name="TabletingStatusLabel21.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 19</value>
@@ -5086,7 +5209,7 @@
     <value>NoControl</value>
   </data>
   <data name="AccidentStatusLabel20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>665, 1005</value>
+    <value>665, 1006</value>
   </data>
   <data name="AccidentStatusLabel20.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 19</value>
@@ -5119,7 +5242,7 @@
     <value>NoControl</value>
   </data>
   <data name="TabletingStatusLabel20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>641, 963</value>
+    <value>641, 962</value>
   </data>
   <data name="TabletingStatusLabel20.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 19</value>
@@ -5152,7 +5275,7 @@
     <value>NoControl</value>
   </data>
   <data name="AccidentStatusLabel19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>534, 1004</value>
+    <value>533, 1004</value>
   </data>
   <data name="AccidentStatusLabel19.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 19</value>
@@ -5185,7 +5308,7 @@
     <value>NoControl</value>
   </data>
   <data name="TabletingStatusLabel19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>512, 963</value>
+    <value>512, 962</value>
   </data>
   <data name="TabletingStatusLabel19.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 19</value>
@@ -5251,7 +5374,7 @@
     <value>NoControl</value>
   </data>
   <data name="TabletingStatusLabel18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>386, 963</value>
+    <value>387, 962</value>
   </data>
   <data name="TabletingStatusLabel18.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 19</value>
@@ -5317,7 +5440,7 @@
     <value>NoControl</value>
   </data>
   <data name="TabletingStatusLabel17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>259, 963</value>
+    <value>259, 962</value>
   </data>
   <data name="TabletingStatusLabel17.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 19</value>
@@ -5383,7 +5506,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelTabletingStatus3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 961</value>
+    <value>21, 961</value>
   </data>
   <data name="labelTabletingStatus3.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 20</value>
@@ -5415,6 +5538,9 @@
   <data name="ShowChartButton20.Location" type="System.Drawing.Point, System.Drawing">
     <value>627, 911</value>
   </data>
+  <data name="ShowChartButton20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="ShowChartButton20.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 28</value>
   </data>
@@ -5444,6 +5570,9 @@
   </data>
   <data name="SensorStatusButton20.Location" type="System.Drawing.Point, System.Drawing">
     <value>625, 785</value>
+  </data>
+  <data name="SensorStatusButton20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton20.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -5572,7 +5701,10 @@
     <value>NoControl</value>
   </data>
   <data name="ShowChartButton19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>498, 911</value>
+    <value>499, 911</value>
+  </data>
+  <data name="ShowChartButton19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="ShowChartButton19.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 28</value>
@@ -5602,7 +5734,10 @@
     <value>NoControl</value>
   </data>
   <data name="SensorStatusButton19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>498, 785</value>
+    <value>499, 785</value>
+  </data>
+  <data name="SensorStatusButton19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton19.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -5635,7 +5770,7 @@
     <value>NoControl</value>
   </data>
   <data name="HeaterConditionLabel19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>512, 872</value>
+    <value>512, 871</value>
   </data>
   <data name="HeaterConditionLabel19.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 19</value>
@@ -5668,7 +5803,7 @@
     <value>NoControl</value>
   </data>
   <data name="TemperaturesLabel19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>534, 832</value>
+    <value>533, 832</value>
   </data>
   <data name="TemperaturesLabel19.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 19</value>
@@ -5731,7 +5866,10 @@
     <value>NoControl</value>
   </data>
   <data name="ShowChartButton18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>370, 911</value>
+    <value>371, 911</value>
+  </data>
+  <data name="ShowChartButton18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="ShowChartButton18.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 28</value>
@@ -5761,7 +5899,10 @@
     <value>NoControl</value>
   </data>
   <data name="SensorStatusButton18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>370, 785</value>
+    <value>371, 785</value>
+  </data>
+  <data name="SensorStatusButton18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton18.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -5794,7 +5935,7 @@
     <value>NoControl</value>
   </data>
   <data name="HeaterConditionLabel18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>386, 873</value>
+    <value>387, 873</value>
   </data>
   <data name="HeaterConditionLabel18.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 19</value>
@@ -5892,6 +6033,9 @@
   <data name="ShowChartButton17.Location" type="System.Drawing.Point, System.Drawing">
     <value>243, 911</value>
   </data>
+  <data name="ShowChartButton17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
   <data name="ShowChartButton17.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 28</value>
   </data>
@@ -5921,6 +6065,9 @@
   </data>
   <data name="SensorStatusButton17.Location" type="System.Drawing.Point, System.Drawing">
     <value>243, 785</value>
+  </data>
+  <data name="SensorStatusButton17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="SensorStatusButton17.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 32</value>
@@ -5986,7 +6133,7 @@
     <value>NoControl</value>
   </data>
   <data name="TemperaturesLabel17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>274, 832</value>
+    <value>275, 832</value>
   </data>
   <data name="TemperaturesLabel17.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 19</value>
@@ -6191,6 +6338,9 @@
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1279, 1045</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Панель управления</value>
